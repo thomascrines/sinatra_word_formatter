@@ -1,0 +1,14 @@
+body {
+  background-color: gold;
+  text-align:center;
+  float:center;
+  font-family: 'Helvetica', sans-serif;
+  font-size:100%;
+  letter-spacing:1px;
+  border-style: black solid;
+  font-size: 120%
+}
+
+ul {
+  list-style-type: none;
+}
