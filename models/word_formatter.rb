@@ -4,8 +4,12 @@ class WordFormatter
     @input = input
   end
 
+  # def postcode_upper_case
+  #   @input.each { |key, value| @input[:phone] = value.upcase! }
+  # end
+
   def postcode_upper_case
-    @input.each { |key, value| @input[:phone] = value.upcase! }
+    @input.each { |key, value| @input = value.upcase! }
   end
 
   def camel_case
